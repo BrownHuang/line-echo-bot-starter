@@ -3,7 +3,7 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const CHANNEL_ACCESS_TOKEN = 'Your_Channel_Access_Token'
+const CHANNEL_ACCESS_TOKEN = '0J5NmlocI7zshzw6pOknGm811HdkOGXm28UClDbt2fntgG7PXk3TenxLdW+W/PSEMtPNbXOrkXTzOyTWY9bkUirDcihTEI2jv/SQR6r9brYIl/IQRU5ot7U8ztgAB/F+cnunukpo33lpZmiacgUqGAdB04t89/1O/w1cDnyilFU='
 const PORT = process.env.PORT || 3000
 
 app.use(bodyParser.urlencoded({ extended: false }))
